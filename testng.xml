@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+  <test  name="Googlechrome">
+  <parameter name="browser" value="googlechrome"></parameter>
+    <classes>
+      <class name="newPackage.Testng2"/>
+    
+    </classes>
+  </test> <!-- Test -->
+  
+  
+    <test  name="IE">
+  <parameter name="browser" value="ie"></parameter>
+    <classes>
+      <class name="newPackage.Testng2"/>
+    
+    </classes>
+  </test> <!-- Test -->
+  
+    <test  name="HtmlUnitDriver">
+  <parameter name="browser" value="HtmlUnitDriver"></parameter>
+    <classes>
+      <class name="newPackage.Testng2"/>
+    
+    </classes>
+  </test> <!-- Test -->
+  
+  <test  name="MicrosoftEdge">
+  <parameter name="browser" value="MicrosoftEdge"></parameter>
+    <classes>
+      <class name="newPackage.Testng2"/> 
+      </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
